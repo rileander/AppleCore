@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343C2C2C2239F53000874392 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C2B2239F53000874392 /* UIButtonX.swift */; };
+		343C2C2E2239F72500874392 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C2D2239F72500874392 /* UIViewX.swift */; };
+		343C2C302239F76E00874392 /* ButtonSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C2F2239F76E00874392 /* ButtonSizeViewController.swift */; };
 		34450CB122305DAA004B06F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CB022305DAA004B06F6 /* AppDelegate.swift */; };
-		34450CB322305DAA004B06F6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CB222305DAA004B06F6 /* FirstViewController.swift */; };
-		34450CB522305DAA004B06F6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CB422305DAA004B06F6 /* SecondViewController.swift */; };
+		34450CB322305DAA004B06F6 /* InterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CB222305DAA004B06F6 /* InterfaceViewController.swift */; };
+		34450CB522305DAA004B06F6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CB422305DAA004B06F6 /* SettingsViewController.swift */; };
 		34450CB822305DAA004B06F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34450CB622305DAA004B06F6 /* Main.storyboard */; };
 		34450CBA22305DAB004B06F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34450CB922305DAB004B06F6 /* Assets.xcassets */; };
 		34450CBD22305DAB004B06F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34450CBB22305DAB004B06F6 /* LaunchScreen.storyboard */; };
 		34450CC822305DAB004B06F6 /* AppleCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CC722305DAB004B06F6 /* AppleCoreTests.swift */; };
 		34450CD322305DAB004B06F6 /* AppleCoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CD222305DAB004B06F6 /* AppleCoreUITests.swift */; };
+		34450CE422305E63004B06F6 /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CE322305E63004B06F6 /* DarkTheme.swift */; };
+		34450CE722305F9D004B06F6 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34450CE622305F9D004B06F6 /* Colors.xcassets */; };
+		34450CEA2230B6E4004B06F6 /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CE92230B6E4004B06F6 /* LightTheme.swift */; };
+		34450CEC2230B6EC004B06F6 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CEB2230B6EC004B06F6 /* ThemeProtocol.swift */; };
+		34450CEE2230BB5F004B06F6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CED2230BB5F004B06F6 /* Theme.swift */; };
+		34C4F04822399A820041815E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C4F04722399A820041815E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		343C2C2B2239F53000874392 /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		343C2C2D2239F72500874392 /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		343C2C2F2239F76E00874392 /* ButtonSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSizeViewController.swift; sourceTree = "<group>"; };
 		34450CAD22305DAA004B06F6 /* AppleCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34450CB022305DAA004B06F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34450CB222305DAA004B06F6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		34450CB422305DAA004B06F6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		34450CB222305DAA004B06F6 /* InterfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceViewController.swift; sourceTree = "<group>"; };
+		34450CB422305DAA004B06F6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		34450CB722305DAA004B06F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34450CB922305DAB004B06F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34450CBC22305DAB004B06F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,12 @@
 		34450CCE22305DAB004B06F6 /* AppleCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleCoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34450CD222305DAB004B06F6 /* AppleCoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCoreUITests.swift; sourceTree = "<group>"; };
 		34450CD422305DAB004B06F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34450CE322305E63004B06F6 /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
+		34450CE622305F9D004B06F6 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		34450CE92230B6E4004B06F6 /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		34450CEB2230B6EC004B06F6 /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		34450CED2230BB5F004B06F6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		34C4F04722399A820041815E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				34450CB022305DAA004B06F6 /* AppDelegate.swift */,
-				34450CB222305DAA004B06F6 /* FirstViewController.swift */,
-				34450CB422305DAA004B06F6 /* SecondViewController.swift */,
-				34450CB622305DAA004B06F6 /* Main.storyboard */,
+				34450CE522305F7D004B06F6 /* Resources */,
+				34450CE82230B6D1004B06F6 /* Theme */,
+				34450CE222305E58004B06F6 /* Models */,
+				34450CE122305E4A004B06F6 /* Controllers */,
+				34450CE022305E40004B06F6 /* Views */,
 				34450CB922305DAB004B06F6 /* Assets.xcassets */,
 				34450CBB22305DAB004B06F6 /* LaunchScreen.storyboard */,
 				34450CBE22305DAB004B06F6 /* Info.plist */,
@@ -126,6 +146,53 @@
 				34450CD422305DAB004B06F6 /* Info.plist */,
 			);
 			path = AppleCoreUITests;
+			sourceTree = "<group>";
+		};
+		34450CE022305E40004B06F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34450CB622305DAA004B06F6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34450CE122305E4A004B06F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				34450CB222305DAA004B06F6 /* InterfaceViewController.swift */,
+				34450CB422305DAA004B06F6 /* SettingsViewController.swift */,
+				343C2C2D2239F72500874392 /* UIViewX.swift */,
+				343C2C2F2239F76E00874392 /* ButtonSizeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		34450CE222305E58004B06F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34C4F04722399A820041815E /* Constants.swift */,
+				343C2C2B2239F53000874392 /* UIButtonX.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34450CE522305F7D004B06F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34450CE622305F9D004B06F6 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34450CE82230B6D1004B06F6 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				34450CE322305E63004B06F6 /* DarkTheme.swift */,
+				34450CE92230B6E4004B06F6 /* LightTheme.swift */,
+				34450CEB2230B6EC004B06F6 /* ThemeProtocol.swift */,
+				34450CED2230BB5F004B06F6 /* Theme.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34450CBD22305DAB004B06F6 /* LaunchScreen.storyboard in Resources */,
+				34450CE722305F9D004B06F6 /* Colors.xcassets in Resources */,
 				34450CBA22305DAB004B06F6 /* Assets.xcassets in Resources */,
 				34450CB822305DAA004B06F6 /* Main.storyboard in Resources */,
 			);
@@ -259,9 +327,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34450CB522305DAA004B06F6 /* SecondViewController.swift in Sources */,
+				34450CB522305DAA004B06F6 /* SettingsViewController.swift in Sources */,
+				34450CE422305E63004B06F6 /* DarkTheme.swift in Sources */,
 				34450CB122305DAA004B06F6 /* AppDelegate.swift in Sources */,
-				34450CB322305DAA004B06F6 /* FirstViewController.swift in Sources */,
+				343C2C2E2239F72500874392 /* UIViewX.swift in Sources */,
+				34450CEC2230B6EC004B06F6 /* ThemeProtocol.swift in Sources */,
+				34450CB322305DAA004B06F6 /* InterfaceViewController.swift in Sources */,
+				343C2C2C2239F53000874392 /* UIButtonX.swift in Sources */,
+				34450CEA2230B6E4004B06F6 /* LightTheme.swift in Sources */,
+				34450CEE2230BB5F004B06F6 /* Theme.swift in Sources */,
+				34C4F04822399A820041815E /* Constants.swift in Sources */,
+				343C2C302239F76E00874392 /* ButtonSizeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,14 +512,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P8KRE82L9;
 				INFOPLIST_FILE = AppleCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ontogenesis.AppleCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,14 +533,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P8KRE82L9;
 				INFOPLIST_FILE = AppleCore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ontogenesis.AppleCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
