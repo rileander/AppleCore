@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,18 +26,18 @@
                                         <rect key="frame" x="12" y="12" width="358" height="569"/>
                                         <color key="backgroundColor" name="LogsBackground"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" tag="1001" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="logsCell" textLabel="Hd7-hv-1jf" style="IBUITableViewCellStyleDefault" id="0jm-TR-Iau">
-                                                <rect key="frame" x="0.0" y="28" width="358" height="44"/>
+                                            <tableViewCell clipsSubviews="YES" tag="1001" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="LOGS_CELL" textLabel="Hd7-hv-1jf" rowHeight="50" style="IBUITableViewCellStyleDefault" id="0jm-TR-Iau">
+                                                <rect key="frame" x="0.0" y="28" width="358" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0jm-TR-Iau" id="n6a-Up-Dzw">
-                                                    <rect key="frame" x="0.0" y="0.0" width="358" height="43.666666666666664"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="358" height="49.666666666666664"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Logs Entry One" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hd7-hv-1jf">
-                                                            <rect key="frame" x="20" y="0.0" width="318" height="43.666666666666664"/>
+                                                            <rect key="frame" x="20" y="0.0" width="318" height="49.666666666666664"/>
                                                             <autoresizingMask key="autoresizingMask"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                            <color key="textColor" name="DarkModeTint"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" name="Tint1"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
@@ -69,14 +69,14 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqg-K4-2WC">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                        <color key="backgroundColor" name="DarkModeLightAccent"/>
+                                        <color key="backgroundColor" name="LightThemeButtonBackground"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="K2a-YH-Wzp"/>
                                             <constraint firstAttribute="height" constant="80" id="rdi-8Y-yVq"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <state key="normal" title="5/4°">
-                                            <color key="titleColor" name="DarkModeTint"/>
+                                            <color key="titleColor" name="Tint1"/>
                                             <color key="titleShadowColor" red="0.80284422950000001" green="0.75771055509999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -85,14 +85,14 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJd-19-D8y">
                                         <rect key="frame" x="108.66666666666669" y="0.0" width="80" height="80"/>
-                                        <color key="backgroundColor" name="DarkModeLightAccent"/>
+                                        <color key="backgroundColor" name="LightThemeButtonBackground"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="Bhz-ys-4DE"/>
                                             <constraint firstAttribute="width" constant="80" id="xNA-78-WeN"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <state key="normal" title="3/4°">
-                                            <color key="titleColor" name="DarkModeTint"/>
+                                            <color key="titleColor" name="Tint1"/>
                                             <color key="titleShadowColor" red="0.80284422950000001" green="0.75771055509999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -101,14 +101,14 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thP-Zt-CTO">
                                         <rect key="frame" x="217.33333333333337" y="0.0" width="80" height="80"/>
-                                        <color key="backgroundColor" name="DarkModeLightAccent"/>
+                                        <color key="backgroundColor" name="LightThemeButtonBackground"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="aVU-qq-d9p"/>
                                             <constraint firstAttribute="width" constant="80" id="dsp-r2-Egk"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <state key="normal" title="10°">
-                                            <color key="titleColor" name="DarkModeTint"/>
+                                            <color key="titleColor" name="Tint1"/>
                                             <color key="titleShadowColor" red="0.80284422950000001" green="0.75771055509999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -117,14 +117,14 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLm-IM-ahj">
                                         <rect key="frame" x="326" y="0.0" width="80" height="80"/>
-                                        <color key="backgroundColor" name="DarkModeLightAccent"/>
+                                        <color key="backgroundColor" name="LightThemeButtonBackground"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="LXp-6q-wUM"/>
                                             <constraint firstAttribute="height" constant="80" id="man-An-W8n"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <state key="normal" title="Clamp">
-                                            <color key="titleColor" name="DarkModeTint"/>
+                                            <color key="titleColor" name="Tint1"/>
                                             <color key="titleShadowColor" red="0.80284422950000001" green="0.75771055509999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
@@ -185,7 +185,7 @@
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Controller" image="radio_waves" id="acW-dT-cKf">
-                        <color key="badgeColor" name="Tint"/>
+                        <color key="badgeColor" name="Tint1"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="buttonFour" destination="rLm-IM-ahj" id="QNw-Gf-zkG"/>
@@ -217,7 +217,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="441-Q6-4dK" kind="relationship" relationship="viewControllers" id="HG5-uM-FhL"/>
+                        <segue destination="FzQ-57-KqX" kind="relationship" relationship="viewControllers" id="HG5-uM-FhL"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -238,7 +238,7 @@
                         <sections>
                             <tableViewSection headerTitle="Controller Settings" id="Ma6-cJ-102">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ButtonSizeControllerSettingsCell" textLabel="m6E-gj-oqj" detailTextLabel="zXM-UP-ahX" style="IBUITableViewCellStyleValue1" id="exr-UA-e87">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ButtonSizeControllerSettingsCell" textLabel="m6E-gj-oqj" detailTextLabel="zXM-UP-ahX" style="IBUITableViewCellStyleValue1" id="exr-UA-e87">
                                         <rect key="frame" x="0.0" y="55.333333333333343" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="exr-UA-e87" id="Ily-Bb-mXa">
@@ -262,30 +262,60 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="b78-Ne-nSj" kind="show" identifier="BUTTON_SIZE_SEGUE" id="ZQU-on-3Uv"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ButtonColorControllerSettingsCell" textLabel="EUZ-Cl-gHc" style="IBUITableViewCellStyleDefault" id="97P-lg-U8V">
-                                        <rect key="frame" x="0.0" y="99.333333333333343" width="414" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ButtonColorControllerSettingsCell" rowHeight="50" id="97P-lg-U8V">
+                                        <rect key="frame" x="0.0" y="99.333333333333343" width="414" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="97P-lg-U8V" id="yeZ-7N-Pok">
-                                            <rect key="frame" x="0.0" y="0.0" width="376" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="49.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Button Colour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EUZ-Cl-gHc">
-                                                    <rect key="frame" x="15" y="0.0" width="361" height="43.666666666666664"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interface Tint" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLo-1c-Of7">
+                                                    <rect key="frame" x="16" y="14.333333333333336" width="102" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8R5-It-v9R" customClass="UIViewX" customModule="AppleCore" customModuleProvider="target">
+                                                    <rect key="frame" x="328" y="5" width="40" height="40"/>
+                                                    <color key="backgroundColor" name="Tint1"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="OhT-kG-h6H"/>
+                                                        <constraint firstAttribute="width" constant="40" id="fWY-UP-Epp"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="20"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" name="LightThemeLightAccent"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8R5-It-v9R" firstAttribute="centerY" secondItem="yeZ-7N-Pok" secondAttribute="centerY" id="0fW-Yh-LgR"/>
+                                                <constraint firstItem="nLo-1c-Of7" firstAttribute="leading" secondItem="yeZ-7N-Pok" secondAttribute="leading" constant="16" id="8Nu-qI-nuZ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="8R5-It-v9R" secondAttribute="trailing" id="R0T-sI-aNl"/>
+                                                <constraint firstItem="nLo-1c-Of7" firstAttribute="centerY" secondItem="yeZ-7N-Pok" secondAttribute="centerY" id="oT7-cL-K5a"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="DXy-db-Ivw" kind="show" identifier="INTERFACE_TINT_SEGUE" id="JBI-xX-41G"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="Logs Settings" id="Jal-jW-D2P">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TextSizeLogsSettingsCell" textLabel="sck-Pq-qHs" detailTextLabel="Efb-oW-5A2" style="IBUITableViewCellStyleValue1" id="Zrg-BQ-HDP">
-                                        <rect key="frame" x="0.0" y="199.33333333333334" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="205.33333333333334" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Zrg-BQ-HDP" id="1RL-Zj-mQi">
                                             <rect key="frame" x="0.0" y="0.0" width="376" height="43.666666666666664"/>
@@ -307,9 +337,12 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="sMX-Wz-fJB" kind="show" identifier="TEXT_SIZE_SEGUE" id="6at-21-K9d"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TextColourLogsSettingsCell" textLabel="cvj-Wc-R44" detailTextLabel="MGI-uC-fmA" style="IBUITableViewCellStyleValue1" id="mmQ-ag-MsU">
-                                        <rect key="frame" x="0.0" y="243.33333333333337" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="249.33333333333337" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mmQ-ag-MsU" id="890-Wz-8uW">
                                             <rect key="frame" x="0.0" y="0.0" width="376" height="43.666666666666664"/>
@@ -331,9 +364,12 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="p2W-ea-adE" kind="show" identifier="TEXT_COLOUR_SEGUE" id="VGP-2j-pop"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AlignmentLogsSettingsCell" textLabel="m2E-ND-DQg" detailTextLabel="sRY-sB-xGa" style="IBUITableViewCellStyleValue1" id="8t8-E0-LMf">
-                                        <rect key="frame" x="0.0" y="287.33333333333337" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="293.33333333333337" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8t8-E0-LMf" id="nYu-OO-dcX">
                                             <rect key="frame" x="0.0" y="0.0" width="376" height="43.666666666666664"/>
@@ -355,13 +391,16 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Wgf-rc-7VE" kind="show" identifier="TEXT_ALIGNMENT_SEGUE" id="P67-1X-tQJ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="Bluetooth Preferences" id="UEf-Rg-QNb">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ConnectiedDeviceBluetoothSettingsCell" textLabel="OOU-Gf-2bv" detailTextLabel="2Cl-Om-Nay" style="IBUITableViewCellStyleValue1" id="pe8-If-Ngx">
-                                        <rect key="frame" x="0.0" y="387.33333333333337" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="393.33333333333337" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pe8-If-Ngx" id="dgY-Cx-H36">
                                             <rect key="frame" x="0.0" y="0.0" width="376" height="43.666666666666664"/>
@@ -385,7 +424,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ConnectDeviceBluetoothSettingsCell" rowHeight="60" id="ovG-WZ-trV">
-                                        <rect key="frame" x="0.0" y="431.33333333333337" width="414" height="60"/>
+                                        <rect key="frame" x="0.0" y="437.33333333333337" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ovG-WZ-trV" id="knO-lo-PkJ">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="59.666666666666664"/>
@@ -412,7 +451,7 @@
                             <tableViewSection headerTitle="Appearance Settings" id="pvm-HG-eqB">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NightModeAppearanceSettingsCell" id="1Fb-q9-Grm">
-                                        <rect key="frame" x="0.0" y="547.33333333333337" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="553.33333333333337" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Fb-q9-Grm" id="fud-QT-Mch">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
@@ -427,8 +466,8 @@
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qog-Ik-Qn5">
                                                     <rect key="frame" x="343" y="6.3333333333333321" width="51" height="30.999999999999996"/>
+                                                    <color key="tintColor" name="LightThemeButtonText"/>
                                                     <color key="onTintColor" name="Tint"/>
-                                                    <color key="thumbTintColor" name="Accent"/>
                                                     <connections>
                                                         <action selector="themeChanged:" destination="441-Q6-4dK" eventType="valueChanged" id="7gm-4o-3nh"/>
                                                     </connections>
@@ -448,8 +487,7 @@
                             <outlet property="delegate" destination="441-Q6-4dK" id="SDb-l4-7Aw"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Settings" image="settings" id="pUn-qc-Ycu"/>
-                    <navigationItem key="navigationItem" title="Settings" id="I6i-mA-kgT"/>
+                    <navigationItem key="navigationItem" title="Settings" largeTitleDisplayMode="always" id="I6i-mA-kgT"/>
                     <connections>
                         <outlet property="alignmentLogsSettingsCell" destination="8t8-E0-LMf" id="Wst-3u-Lij"/>
                         <outlet property="buttonColourControllerSettingsCell" destination="97P-lg-U8V" id="LCw-k5-syb"/>
@@ -458,9 +496,12 @@
                         <outlet property="connectDeviceBluetoothSettingsCell" destination="ovG-WZ-trV" id="rI5-FU-nCP"/>
                         <outlet property="connectedDevicesBluetoothSettingsCell" destination="pe8-If-Ngx" id="RL7-Oa-boJ"/>
                         <outlet property="deviceNameLabel" destination="2Cl-Om-Nay" id="5oz-BN-btj"/>
+                        <outlet property="interfaceTintLabel" destination="nLo-1c-Of7" id="NRL-FW-fen"/>
+                        <outlet property="interfaceTintView" destination="8R5-It-v9R" id="Ah5-HX-J5V"/>
                         <outlet property="nightModeAppearanceSettingsBackgroundView" destination="fud-QT-Mch" id="GCq-pj-tm8"/>
                         <outlet property="nightModeAppearanceSettingsCell" destination="1Fb-q9-Grm" id="alu-2l-gCM"/>
                         <outlet property="nightModeAppearanceSettingsLabel" destination="N9t-9K-j3V" id="CGi-eo-Xzs"/>
+                        <outlet property="nightModeSwitch" destination="Qog-Ik-Qn5" id="AKM-8E-aty"/>
                         <outlet property="settingsTableView" destination="7HM-Oh-Ggc" id="k9N-gp-brm"/>
                         <outlet property="textAlignmentLabel" destination="sRY-sB-xGa" id="uYh-Ns-spK"/>
                         <outlet property="textColourLabel" destination="MGI-uC-fmA" id="AWc-gh-oCf"/>
@@ -471,10 +512,450 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fht-YN-X0s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="771" y="384"/>
+            <point key="canvasLocation" x="1679.7101449275362" y="383.70535714285711"/>
+        </scene>
+        <!--Button Size-->
+        <scene sceneID="L1R-56-6zM">
+            <objects>
+                <tableViewController id="b78-Ne-nSj" customClass="ButtonSizeSettingTableViewController" customModule="AppleCore" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" contentViewInsetsToSafeArea="NO" id="hWD-h7-Gef">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="LightThemeLightAccent"/>
+                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <sections>
+                            <tableViewSection headerTitle="Select a Button Size Option" id="ofb-iq-6Wz">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="J7p-ka-YCR" customClass="ButtonSizeTableViewCell" customModule="AppleCore" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="55.333333333333343" width="414" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="J7p-ka-YCR" id="gBi-5l-5aq" customClass="ButtonSizeTableViewCell" customModule="AppleCore" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OL6-eW-4i6">
+                                                    <rect key="frame" x="182" y="20" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" name="LightThemeButtonBackground"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="25"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" name="LightThemeButtonText"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="C9t-18-YAd" customClass="ButtonSizeTableViewCell" customModule="AppleCore" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="145.33333333333334" width="414" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C9t-18-YAd" id="6k4-8e-4Q4" customClass="ButtonSizeTableViewCell" customModule="AppleCore" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" horizontalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RjC-xA-KoK">
+                                                    <rect key="frame" x="176" y="15" width="60" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" name="LightThemeButtonBackground"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="30"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" name="LightThemeButtonText"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="xVx-av-DpL" customClass="ButtonSizeTableViewCell" customModule="AppleCore" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="235.33333333333337" width="414" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xVx-av-DpL" id="2sK-2B-arX" customClass="ButtonSizeTableViewCell" customModule="AppleCore" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" horizontalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NCC-15-W9e">
+                                                    <rect key="frame" x="171" y="11" width="70" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" name="LightThemeButtonBackground"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" name="LightThemeButtonText"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="35"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="c8k-sK-uVZ" customClass="ButtonSizeTableViewCell" customModule="AppleCore" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="325.33333333333337" width="414" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="c8k-sK-uVZ" id="PZS-sd-O98" customClass="ButtonSizeTableViewCell" customModule="AppleCore" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" horizontalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RcJ-aK-RFo">
+                                                    <rect key="frame" x="167" y="6" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" name="LightThemeButtonBackground"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="40"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" name="LightThemeButtonText"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="zXa-WQ-cgg">
+                                <cells/>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="b78-Ne-nSj" id="VQn-f5-8c3"/>
+                            <outlet property="delegate" destination="b78-Ne-nSj" id="WDx-12-Sqd"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Button Size" largeTitleDisplayMode="never" id="nyh-yM-xJU">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="fOg-qb-noE">
+                            <color key="tintColor" name="Tint1"/>
+                            <connections>
+                                <action selector="cancelNavigationButtonAction:" destination="b78-Ne-nSj" id="y8e-eW-swp"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Done" id="BHD-jT-FZ3">
+                            <color key="tintColor" name="Tint1"/>
+                            <connections>
+                                <action selector="doneNavigationButtonAction:" destination="b78-Ne-nSj" id="0fa-ql-Lbu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cancelNavigationButton" destination="fOg-qb-noE" id="oBu-0P-KxE"/>
+                        <outlet property="doneNavigationButton" destination="BHD-jT-FZ3" id="Dmi-pZ-iu0"/>
+                        <outlet property="eightyEightyView" destination="RcJ-aK-RFo" id="nLq-4h-qHZ"/>
+                        <outlet property="fiftyFiftyView" destination="OL6-eW-4i6" id="QCq-wP-NrZ"/>
+                        <outlet property="seventySeventyView" destination="NCC-15-W9e" id="cxi-d0-a9x"/>
+                        <outlet property="sixtySixtyView" destination="RjC-xA-KoK" id="eHw-hB-UQV"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jwN-YN-ogH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2569.5652173913045" y="-273.21428571428572"/>
+        </scene>
+        <!--SettingsInterfaceTint-->
+        <scene sceneID="yzE-rm-EuR">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="SettingsInterfaceTint" storyboardName="SettingsInterfaceTint" referencedIdentifier="SettingsInterfaceTint" id="DXy-db-Ivw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yxw-wK-fnO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3215" y="-234"/>
+        </scene>
+        <!--Text Size-->
+        <scene sceneID="7Sk-9q-OdC">
+            <objects>
+                <tableViewController id="sMX-Wz-fJB" customClass="TextSizeSettingTableViewController" customModule="AppleCore" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="lTI-t0-cIj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Select a Logs Text Size Option" id="ISA-gT-jra">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Fec-qU-c2p">
+                                        <rect key="frame" x="0.0" y="55.333333333333343" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fec-qU-c2p" id="chs-ry-pJn">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Qyj-Ex-5Er">
+                                        <rect key="frame" x="0.0" y="99.333333333333343" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qyj-Ex-5Er" id="qSo-9o-QOz">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0Zg-S3-u6X">
+                                        <rect key="frame" x="0.0" y="143.33333333333334" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Zg-S3-u6X" id="ZZb-ZC-acg">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="lND-qV-3eT">
+                                <cells/>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="sMX-Wz-fJB" id="8Hc-Z3-5A8"/>
+                            <outlet property="delegate" destination="sMX-Wz-fJB" id="UKv-XK-d0q"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Text Size" largeTitleDisplayMode="never" id="hvm-uT-15d">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="fPV-IL-zfA">
+                            <color key="tintColor" name="Tint1"/>
+                            <connections>
+                                <action selector="cancelNavigationButtonAction:" destination="sMX-Wz-fJB" id="3os-Q3-tKy"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Done" id="ZCE-IJ-LMg">
+                            <color key="tintColor" name="Tint1"/>
+                            <connections>
+                                <action selector="doneNavigationButtonAction:" destination="sMX-Wz-fJB" id="d3b-1x-MbZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cancelNavigationButton" destination="fPV-IL-zfA" id="Ucy-QF-yJI"/>
+                        <outlet property="doneNavigationButton" destination="ZCE-IJ-LMg" id="9wh-aK-ekQ"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LOb-Be-rLm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3483" y="202"/>
+        </scene>
+        <!--Text Alignment-->
+        <scene sceneID="kCx-Mz-S2W">
+            <objects>
+                <tableViewController id="Wgf-rc-7VE" customClass="TextAlignmentSettingTableViewController" customModule="AppleCore" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="pzx-8h-cyr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Select A Text Alignment Option" id="Rx4-Gn-1Hg">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="QOl-31-08q">
+                                        <rect key="frame" x="0.0" y="55.333333333333343" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QOl-31-08q" id="Cbo-m8-ORK">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="69.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Left Justified" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUM-rA-PIL">
+                                                    <rect key="frame" x="20" y="25" width="140" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AlignLeft" translatesAutoresizingMaskIntoConstraints="NO" id="VJr-rQ-eKL">
+                                                    <rect key="frame" x="334" y="6" width="60" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="bc0-ow-PuG">
+                                        <rect key="frame" x="0.0" y="125.33333333333334" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bc0-ow-PuG" id="3Ek-TY-0qi">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="69.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Center Justified" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFL-KL-Tjf">
+                                                    <rect key="frame" x="20" y="26" width="140" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AlignCenter" translatesAutoresizingMaskIntoConstraints="NO" id="Uc6-wG-CVr">
+                                                    <rect key="frame" x="334" y="5" width="60" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="2Ql-GN-P6t">
+                                        <rect key="frame" x="0.0" y="195.33333333333334" width="414" height="70.000000000000028"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2Ql-GN-P6t" id="35Q-nV-T5x">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="69.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Right Justified" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1W-7G-DPB">
+                                                    <rect key="frame" x="20" y="26" width="140" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AlignRight" translatesAutoresizingMaskIntoConstraints="NO" id="Zth-Ju-MWF">
+                                                    <rect key="frame" x="334" y="5" width="60" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Wgf-rc-7VE" id="Z54-vG-b6B"/>
+                            <outlet property="delegate" destination="Wgf-rc-7VE" id="4gM-vn-Itg"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Text Alignment" largeTitleDisplayMode="never" id="3Ek-oA-pVp">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="A10-dV-FA2">
+                            <color key="tintColor" name="Tint1"/>
+                            <connections>
+                                <action selector="cancelNavigationButtonAction:" destination="Wgf-rc-7VE" id="DWl-dN-ULU"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Done" id="DgP-ZX-RdQ">
+                            <color key="tintColor" name="Tint1"/>
+                            <connections>
+                                <action selector="doneNavigationButtonAction:" destination="Wgf-rc-7VE" id="zKb-6d-Siw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cancelNavigationButton" destination="A10-dV-FA2" id="4Iw-em-ySB"/>
+                        <outlet property="centerJustifiedCell" destination="bc0-ow-PuG" id="LdA-8p-i0s"/>
+                        <outlet property="centerJustifiedImageView" destination="Uc6-wG-CVr" id="NoA-WY-b5e"/>
+                        <outlet property="centerJustifiedTextLabel" destination="cFL-KL-Tjf" id="2YU-2e-7pW"/>
+                        <outlet property="doneNavigationButton" destination="DgP-ZX-RdQ" id="wFO-Ww-K7U"/>
+                        <outlet property="leftJustifiedCell" destination="QOl-31-08q" id="9Ns-ZE-XRJ"/>
+                        <outlet property="leftJustifiedImageView" destination="VJr-rQ-eKL" id="N5q-gx-O1B"/>
+                        <outlet property="leftJustifiedTextLabel" destination="MUM-rA-PIL" id="EJI-VA-aKI"/>
+                        <outlet property="rightJustifiedCell" destination="2Ql-GN-P6t" id="CBh-Dd-GZO"/>
+                        <outlet property="rightJustifiedImageView" destination="Zth-Ju-MWF" id="82s-Lv-FjS"/>
+                        <outlet property="rightJustifiedTextLabel" destination="r1W-7G-DPB" id="e45-UM-fcu"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L0R-tx-LPd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2569.5652173913045" y="919.41964285714278"/>
+        </scene>
+        <!--Text Colour-->
+        <scene sceneID="pxe-1m-tom">
+            <objects>
+                <tableViewController id="p2W-ea-adE" customClass="TextColourSettingTableViewController" customModule="AppleCore" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="Wc6-Z3-VES">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Select a Logs Text Colour Option" id="8dX-m3-Hb9">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="QuT-15-wb6">
+                                        <rect key="frame" x="0.0" y="55.333333333333343" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QuT-15-wb6" id="ubO-HW-EJy">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ehu-jw-J9l">
+                                        <rect key="frame" x="0.0" y="99.333333333333343" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ehu-jw-J9l" id="py5-zz-h4X">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="lIJ-th-ayo">
+                                        <rect key="frame" x="0.0" y="143.33333333333334" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lIJ-th-ayo" id="t0g-cD-rhJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="hNO-G1-Vxd">
+                                <cells/>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="p2W-ea-adE" id="eGj-X7-7wE"/>
+                            <outlet property="delegate" destination="p2W-ea-adE" id="nl9-cX-MEh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Text Colour" largeTitleDisplayMode="never" id="dFq-pu-XA7">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="ynm-yy-oal">
+                            <color key="tintColor" name="Tint1"/>
+                            <connections>
+                                <action selector="cancelNavigationButtonAction:" destination="p2W-ea-adE" id="3TD-A4-Six"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Done" id="AsN-hL-Bbq">
+                            <color key="tintColor" name="Tint1"/>
+                            <connections>
+                                <action selector="doneNavigationButtonAction:" destination="p2W-ea-adE" id="MA7-dz-oPY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cancelNavigationButton" destination="ynm-yy-oal" id="vi1-W1-YqC"/>
+                        <outlet property="doneNavigationButton" destination="AsN-hL-Bbq" id="rlu-m7-OBD"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fwo-0G-EDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3483" y="897"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="L3w-16-QVK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FzQ-57-KqX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings" id="pUn-qc-Ycu"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="R4x-Z3-Mxz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="DarkThemeLogsBackground"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="441-Q6-4dK" kind="relationship" relationship="rootViewController" id="wIV-PV-FKV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Nh-1i-Uk8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="769.56521739130437" y="383.70535714285711"/>
         </scene>
     </scenes>
     <resources>
+        <image name="AlignCenter" width="45" height="45"/>
+        <image name="AlignLeft" width="45" height="45"/>
+        <image name="AlignRight" width="45" height="45"/>
         <image name="radio_waves" width="30" height="30"/>
         <image name="settings" width="30" height="30"/>
         <namedColor name="Accent">
@@ -495,11 +976,23 @@
         <namedColor name="DarkModeTint">
             <color red="0.24699999392032623" green="0.64999997615814209" blue="0.74800002574920654" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="DarkThemeLogsBackground">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="LightThemeAccent">
             <color white="0.66699999570846558" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </namedColor>
-        <namedColor name="LightThemeLogsBackground">
+        <namedColor name="LightThemeButtonBackground">
             <color white="0.8529999852180481" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+        <namedColor name="LightThemeButtonText">
+            <color red="0.24699999392032623" green="0.64999997615814209" blue="0.74800002574920654" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightThemeLightAccent">
+            <color white="0.8529999852180481" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+        <namedColor name="LightThemeLogsBackground">
+            <color white="0.15299999713897705" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </namedColor>
         <namedColor name="LogsBackground">
             <color white="0.15299999713897705" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -511,4 +1004,5 @@
             <color red="0.24699999392032623" green="0.64999997615814209" blue="0.74800002574920654" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
+    <color key="tintColor" name="LightThemeButtonText"/>
 </document>

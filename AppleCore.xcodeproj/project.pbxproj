@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		343C2C2C2239F53000874392 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C2B2239F53000874392 /* UIButtonX.swift */; };
 		343C2C2E2239F72500874392 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C2D2239F72500874392 /* UIViewX.swift */; };
-		343C2C302239F76E00874392 /* ButtonSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C2F2239F76E00874392 /* ButtonSizeViewController.swift */; };
+		343C2C302239F76E00874392 /* SettingsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C2F2239F76E00874392 /* SettingsDetailViewController.swift */; };
 		34450CB122305DAA004B06F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CB022305DAA004B06F6 /* AppDelegate.swift */; };
 		34450CB322305DAA004B06F6 /* InterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CB222305DAA004B06F6 /* InterfaceViewController.swift */; };
 		34450CB522305DAA004B06F6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CB422305DAA004B06F6 /* SettingsViewController.swift */; };
@@ -23,6 +23,28 @@
 		34450CEA2230B6E4004B06F6 /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CE92230B6E4004B06F6 /* LightTheme.swift */; };
 		34450CEC2230B6EC004B06F6 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CEB2230B6EC004B06F6 /* ThemeProtocol.swift */; };
 		34450CEE2230BB5F004B06F6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34450CED2230BB5F004B06F6 /* Theme.swift */; };
+		347649A22240B0B700CBFBF1 /* SettingsInterfaceTint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347649A12240B0B700CBFBF1 /* SettingsInterfaceTint.storyboard */; };
+		349A5C5E223DA00200B8F744 /* ButtonSizeSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A5C5D223DA00200B8F744 /* ButtonSizeSettingTableViewController.swift */; };
+		349A5C60223DA01500B8F744 /* InterfaceTintSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A5C5F223DA01500B8F744 /* InterfaceTintSettingTableViewController.swift */; };
+		349A5C62223DA02800B8F744 /* TextAlignmentSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A5C61223DA02800B8F744 /* TextAlignmentSettingTableViewController.swift */; };
+		349A5C64223DA03400B8F744 /* TextSizeSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A5C63223DA03400B8F744 /* TextSizeSettingTableViewController.swift */; };
+		349A5C66223DA04400B8F744 /* TextColourSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A5C65223DA04400B8F744 /* TextColourSettingTableViewController.swift */; };
+		349F0F4B223C67E3008C2C61 /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F0F4A223C67E3008C2C61 /* CellType.swift */; };
+		349F0F4F223C6D68008C2C61 /* SettingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F0F4E223C6D68008C2C61 /* SettingType.swift */; };
+		349F0F5D223C8D5B008C2C61 /* ButtonSizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F0F5B223C8D5B008C2C61 /* ButtonSizeTableViewCell.swift */; };
+		349F0F5E223C8D5B008C2C61 /* ButtonSizeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349F0F5C223C8D5B008C2C61 /* ButtonSizeTableViewCell.xib */; };
+		349F0F61223C8D6C008C2C61 /* InterfaceTintTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F0F5F223C8D6C008C2C61 /* InterfaceTintTableViewCell.swift */; };
+		349F0F62223C8D6C008C2C61 /* InterfaceTintTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349F0F60223C8D6C008C2C61 /* InterfaceTintTableViewCell.xib */; };
+		349F0F67223C8DB9008C2C61 /* TextSizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F0F65223C8DB9008C2C61 /* TextSizeTableViewCell.swift */; };
+		349F0F68223C8DB9008C2C61 /* TextSizeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349F0F66223C8DB9008C2C61 /* TextSizeTableViewCell.xib */; };
+		349F0F6C223C8DE9008C2C61 /* TextAlignmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F0F6A223C8DE9008C2C61 /* TextAlignmentTableViewCell.swift */; };
+		349F0F6D223C8DE9008C2C61 /* TextAlignmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349F0F6B223C8DE9008C2C61 /* TextAlignmentTableViewCell.xib */; };
+		349F0F72223C9346008C2C61 /* TextColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F0F70223C9346008C2C61 /* TextColorTableViewCell.swift */; };
+		349F0F73223C9346008C2C61 /* TextColorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349F0F71223C9346008C2C61 /* TextColorTableViewCell.xib */; };
+		349F0F76223C96CF008C2C61 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F0F75223C96CF008C2C61 /* DataModel.swift */; };
+		349F0F78223C974B008C2C61 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F0F77223C974B008C2C61 /* Extensions.swift */; };
+		349F0F7A223C99CC008C2C61 /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F0F79223C99CC008C2C61 /* SettingItem.swift */; };
+		349F0F7C223C99E8008C2C61 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349F0F7B223C99E8008C2C61 /* Settings.swift */; };
 		34C4F04822399A820041815E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C4F04722399A820041815E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +68,7 @@
 /* Begin PBXFileReference section */
 		343C2C2B2239F53000874392 /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
 		343C2C2D2239F72500874392 /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
-		343C2C2F2239F76E00874392 /* ButtonSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSizeViewController.swift; sourceTree = "<group>"; };
+		343C2C2F2239F76E00874392 /* SettingsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDetailViewController.swift; sourceTree = "<group>"; };
 		34450CAD22305DAA004B06F6 /* AppleCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34450CB022305DAA004B06F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34450CB222305DAA004B06F6 /* InterfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +88,28 @@
 		34450CE92230B6E4004B06F6 /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
 		34450CEB2230B6EC004B06F6 /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
 		34450CED2230BB5F004B06F6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		347649A12240B0B700CBFBF1 /* SettingsInterfaceTint.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsInterfaceTint.storyboard; sourceTree = "<group>"; };
+		349A5C5D223DA00200B8F744 /* ButtonSizeSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSizeSettingTableViewController.swift; sourceTree = "<group>"; };
+		349A5C5F223DA01500B8F744 /* InterfaceTintSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceTintSettingTableViewController.swift; sourceTree = "<group>"; };
+		349A5C61223DA02800B8F744 /* TextAlignmentSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlignmentSettingTableViewController.swift; sourceTree = "<group>"; };
+		349A5C63223DA03400B8F744 /* TextSizeSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizeSettingTableViewController.swift; sourceTree = "<group>"; };
+		349A5C65223DA04400B8F744 /* TextColourSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextColourSettingTableViewController.swift; sourceTree = "<group>"; };
+		349F0F4A223C67E3008C2C61 /* CellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellType.swift; sourceTree = "<group>"; };
+		349F0F4E223C6D68008C2C61 /* SettingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingType.swift; sourceTree = "<group>"; };
+		349F0F5B223C8D5B008C2C61 /* ButtonSizeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSizeTableViewCell.swift; sourceTree = "<group>"; };
+		349F0F5C223C8D5B008C2C61 /* ButtonSizeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonSizeTableViewCell.xib; sourceTree = "<group>"; };
+		349F0F5F223C8D6C008C2C61 /* InterfaceTintTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceTintTableViewCell.swift; sourceTree = "<group>"; };
+		349F0F60223C8D6C008C2C61 /* InterfaceTintTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InterfaceTintTableViewCell.xib; sourceTree = "<group>"; };
+		349F0F65223C8DB9008C2C61 /* TextSizeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizeTableViewCell.swift; sourceTree = "<group>"; };
+		349F0F66223C8DB9008C2C61 /* TextSizeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextSizeTableViewCell.xib; sourceTree = "<group>"; };
+		349F0F6A223C8DE9008C2C61 /* TextAlignmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlignmentTableViewCell.swift; sourceTree = "<group>"; };
+		349F0F6B223C8DE9008C2C61 /* TextAlignmentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextAlignmentTableViewCell.xib; sourceTree = "<group>"; };
+		349F0F70223C9346008C2C61 /* TextColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextColorTableViewCell.swift; sourceTree = "<group>"; };
+		349F0F71223C9346008C2C61 /* TextColorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextColorTableViewCell.xib; sourceTree = "<group>"; };
+		349F0F75223C96CF008C2C61 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		349F0F77223C974B008C2C61 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		349F0F79223C99CC008C2C61 /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
+		349F0F7B223C99E8008C2C61 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		34C4F04722399A820041815E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +166,7 @@
 				34450CE82230B6D1004B06F6 /* Theme */,
 				34450CE222305E58004B06F6 /* Models */,
 				34450CE122305E4A004B06F6 /* Controllers */,
+				349F0F47223C6432008C2C61 /* SupportingFiles */,
 				34450CE022305E40004B06F6 /* Views */,
 				34450CB922305DAB004B06F6 /* Assets.xcassets */,
 				34450CBB22305DAB004B06F6 /* LaunchScreen.storyboard */,
@@ -152,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				34450CB622305DAA004B06F6 /* Main.storyboard */,
+				347649A12240B0B700CBFBF1 /* SettingsInterfaceTint.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,8 +207,12 @@
 			children = (
 				34450CB222305DAA004B06F6 /* InterfaceViewController.swift */,
 				34450CB422305DAA004B06F6 /* SettingsViewController.swift */,
-				343C2C2D2239F72500874392 /* UIViewX.swift */,
-				343C2C2F2239F76E00874392 /* ButtonSizeViewController.swift */,
+				343C2C2F2239F76E00874392 /* SettingsDetailViewController.swift */,
+				349A5C5D223DA00200B8F744 /* ButtonSizeSettingTableViewController.swift */,
+				349A5C5F223DA01500B8F744 /* InterfaceTintSettingTableViewController.swift */,
+				349A5C61223DA02800B8F744 /* TextAlignmentSettingTableViewController.swift */,
+				349A5C63223DA03400B8F744 /* TextSizeSettingTableViewController.swift */,
+				349A5C65223DA04400B8F744 /* TextColourSettingTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -171,7 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				34C4F04722399A820041815E /* Constants.swift */,
-				343C2C2B2239F53000874392 /* UIButtonX.swift */,
+				349F0F75223C96CF008C2C61 /* DataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +243,78 @@
 				34450CED2230BB5F004B06F6 /* Theme.swift */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		349F0F47223C6432008C2C61 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				349F0F4E223C6D68008C2C61 /* SettingType.swift */,
+				349F0F77223C974B008C2C61 /* Extensions.swift */,
+				349F0F4A223C67E3008C2C61 /* CellType.swift */,
+				343C2C2B2239F53000874392 /* UIButtonX.swift */,
+				343C2C2D2239F72500874392 /* UIViewX.swift */,
+				349F0F79223C99CC008C2C61 /* SettingItem.swift */,
+				349F0F7B223C99E8008C2C61 /* Settings.swift */,
+				349F0F52223C8C29008C2C61 /* Cells */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		349F0F52223C8C29008C2C61 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				349F0F64223C8D9A008C2C61 /* ButtonSizeCell */,
+				349F0F63223C8D76008C2C61 /* InterfaceTintCell */,
+				349F0F6F223C932F008C2C61 /* TextAlignmentCell */,
+				349F0F69223C8DBD008C2C61 /* TextSizeCell */,
+				349F0F74223C968E008C2C61 /* TextColor */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		349F0F63223C8D76008C2C61 /* InterfaceTintCell */ = {
+			isa = PBXGroup;
+			children = (
+				349F0F5F223C8D6C008C2C61 /* InterfaceTintTableViewCell.swift */,
+				349F0F60223C8D6C008C2C61 /* InterfaceTintTableViewCell.xib */,
+			);
+			path = InterfaceTintCell;
+			sourceTree = "<group>";
+		};
+		349F0F64223C8D9A008C2C61 /* ButtonSizeCell */ = {
+			isa = PBXGroup;
+			children = (
+				349F0F5B223C8D5B008C2C61 /* ButtonSizeTableViewCell.swift */,
+				349F0F5C223C8D5B008C2C61 /* ButtonSizeTableViewCell.xib */,
+			);
+			path = ButtonSizeCell;
+			sourceTree = "<group>";
+		};
+		349F0F69223C8DBD008C2C61 /* TextSizeCell */ = {
+			isa = PBXGroup;
+			children = (
+				349F0F65223C8DB9008C2C61 /* TextSizeTableViewCell.swift */,
+				349F0F66223C8DB9008C2C61 /* TextSizeTableViewCell.xib */,
+			);
+			path = TextSizeCell;
+			sourceTree = "<group>";
+		};
+		349F0F6F223C932F008C2C61 /* TextAlignmentCell */ = {
+			isa = PBXGroup;
+			children = (
+				349F0F6A223C8DE9008C2C61 /* TextAlignmentTableViewCell.swift */,
+				349F0F6B223C8DE9008C2C61 /* TextAlignmentTableViewCell.xib */,
+			);
+			path = TextAlignmentCell;
+			sourceTree = "<group>";
+		};
+		349F0F74223C968E008C2C61 /* TextColor */ = {
+			isa = PBXGroup;
+			children = (
+				349F0F70223C9346008C2C61 /* TextColorTableViewCell.swift */,
+				349F0F71223C9346008C2C61 /* TextColorTableViewCell.xib */,
+			);
+			path = TextColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,10 +421,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349F0F62223C8D6C008C2C61 /* InterfaceTintTableViewCell.xib in Resources */,
 				34450CBD22305DAB004B06F6 /* LaunchScreen.storyboard in Resources */,
 				34450CE722305F9D004B06F6 /* Colors.xcassets in Resources */,
+				347649A22240B0B700CBFBF1 /* SettingsInterfaceTint.storyboard in Resources */,
 				34450CBA22305DAB004B06F6 /* Assets.xcassets in Resources */,
+				349F0F5E223C8D5B008C2C61 /* ButtonSizeTableViewCell.xib in Resources */,
 				34450CB822305DAA004B06F6 /* Main.storyboard in Resources */,
+				349F0F6D223C8DE9008C2C61 /* TextAlignmentTableViewCell.xib in Resources */,
+				349F0F73223C9346008C2C61 /* TextColorTableViewCell.xib in Resources */,
+				349F0F68223C8DB9008C2C61 /* TextSizeTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,17 +455,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349F0F6C223C8DE9008C2C61 /* TextAlignmentTableViewCell.swift in Sources */,
+				349F0F4F223C6D68008C2C61 /* SettingType.swift in Sources */,
 				34450CB522305DAA004B06F6 /* SettingsViewController.swift in Sources */,
+				349A5C62223DA02800B8F744 /* TextAlignmentSettingTableViewController.swift in Sources */,
 				34450CE422305E63004B06F6 /* DarkTheme.swift in Sources */,
+				349F0F76223C96CF008C2C61 /* DataModel.swift in Sources */,
+				349A5C60223DA01500B8F744 /* InterfaceTintSettingTableViewController.swift in Sources */,
 				34450CB122305DAA004B06F6 /* AppDelegate.swift in Sources */,
+				349F0F72223C9346008C2C61 /* TextColorTableViewCell.swift in Sources */,
+				349F0F7C223C99E8008C2C61 /* Settings.swift in Sources */,
 				343C2C2E2239F72500874392 /* UIViewX.swift in Sources */,
 				34450CEC2230B6EC004B06F6 /* ThemeProtocol.swift in Sources */,
+				349A5C64223DA03400B8F744 /* TextSizeSettingTableViewController.swift in Sources */,
 				34450CB322305DAA004B06F6 /* InterfaceViewController.swift in Sources */,
 				343C2C2C2239F53000874392 /* UIButtonX.swift in Sources */,
+				349F0F4B223C67E3008C2C61 /* CellType.swift in Sources */,
+				349F0F7A223C99CC008C2C61 /* SettingItem.swift in Sources */,
+				349F0F78223C974B008C2C61 /* Extensions.swift in Sources */,
 				34450CEA2230B6E4004B06F6 /* LightTheme.swift in Sources */,
 				34450CEE2230BB5F004B06F6 /* Theme.swift in Sources */,
+				349F0F67223C8DB9008C2C61 /* TextSizeTableViewCell.swift in Sources */,
+				349F0F61223C8D6C008C2C61 /* InterfaceTintTableViewCell.swift in Sources */,
+				349F0F5D223C8D5B008C2C61 /* ButtonSizeTableViewCell.swift in Sources */,
 				34C4F04822399A820041815E /* Constants.swift in Sources */,
-				343C2C302239F76E00874392 /* ButtonSizeViewController.swift in Sources */,
+				343C2C302239F76E00874392 /* SettingsDetailViewController.swift in Sources */,
+				349A5C66223DA04400B8F744 /* TextColourSettingTableViewController.swift in Sources */,
+				349A5C5E223DA00200B8F744 /* ButtonSizeSettingTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,13 +9,19 @@
 import UIKit
 
 class LightTheme: ThemeProtocol {
+    var selectedTint: Int = 0
     
+    var buttonContainer = UIColor(named: "LightThemeButtonStackBorder")!
+    
+    var buttonBackground = UIColor(named: "LightThemeButtonBackground")!
     
     var accent: UIColor = UIColor(named: "LightThemeAccent")!
     
     var lightAccent: UIColor = UIColor(named: "LightThemeLightAccent")!
     
-    var background: UIColor = UIColor(named: "LightThemeLogsBackground")!
+    var background: UIColor = UIColor(named: "LightThemeBackground")!
+
+    var settingsSection: UIColor = UIColor(named: "LightThemeSettingsSection")!
     
     var logsBackground: UIColor = UIColor(named: "LightThemeLogsBackground")!
     
@@ -24,7 +30,28 @@ class LightTheme: ThemeProtocol {
     
     var text: UIColor = UIColor(named: "LightThemeText")!
     
-    var tint: UIColor = UIColor(named: "Tint1")!
+    
+    var seletedTint: Int = 0
+    
+    func getTint(selectedTint: Int) -> UIColor {
+        switch selectedTint{
+        case 0:
+            return Constants.ColorConstants.tint1
+        case 1:
+            return Constants.ColorConstants.tint2
+        case 2:
+            return Constants.ColorConstants.tint3
+        case 3:
+            return Constants.ColorConstants.tint4
+        default:
+            return Constants.ColorConstants.tint1
+        }
+    }
+    
+    var tint1: UIColor = Constants.ColorConstants.tint1
+    var tint2: UIColor = Constants.ColorConstants.tint2
+    var tint3: UIColor = Constants.ColorConstants.tint3
+    var tint4: UIColor = Constants.ColorConstants.tint4
     
     var settingsCell: UIColor = UIColor(named: "LightThemeSettingsCell")!
     

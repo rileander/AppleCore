@@ -16,6 +16,8 @@ class InterfaceViewController: UIViewController {
     @IBOutlet weak var logsTableView: UITableView!
     @IBOutlet weak var logsBorderView: UIView!
     
+    
+    
     @IBOutlet weak var buttonStack: UIStackView!
     @IBOutlet weak var buttonStackBorder: UIView!
     
@@ -33,26 +35,32 @@ class InterfaceViewController: UIViewController {
         setUpView()
         
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        applyTheme()
         logsTableView.reloadData()
     }
+//    override func viewDidAppear(_ animated: Bool) {
+//        super.viewDidAppear(animated)
+//        
+//        applyTheme()
+//        logsTableView.reloadData()
+//    }
     
     @IBAction func buttonOne(_ sender: Any) {
-        let functionString = Constants.InterfaceConstants.BUTTON_ONE
+        buttonOne.titleLabel?.textColor = Theme.tint
+        buttonOne.tintColor = Theme.tint
+        let functionString = Constants.ButtonConstants.BUTTON_ONE
         logsEntrys.append(Constants.InterfaceConstants.LOG + intToString(int: newLogsEntryNumber()) + Constants.InterfaceConstants.DASH + functionString)
         logsTableView.reloadData()
         guard let lastIndexPath = logsTableView.indexPathsForVisibleRows?.last else { return }
         logsTableView.scrollToRow(at: lastIndexPath, at: UITableView.ScrollPosition.middle, animated: true)
-
-        print("Success")
     }
     
     @IBAction func buttonTwo(_ sender: Any) {
-        let functionString = Constants.InterfaceConstants.BUTTON_TWO
+        buttonTwo.titleLabel?.textColor = Theme.tint
+        buttonTwo.tintColor = Theme.tint
+        let functionString = Constants.ButtonConstants.BUTTON_TWO
         logsEntrys.append(Constants.InterfaceConstants.LOG + intToString(int: newLogsEntryNumber()) + Constants.InterfaceConstants.DASH + functionString)
         logsTableView.reloadData()
         guard let lastIndexPath = logsTableView.indexPathsForVisibleRows?.last else { return }
@@ -62,7 +70,9 @@ class InterfaceViewController: UIViewController {
     }
     
     @IBAction func buttonThree(_ sender: Any) {
-        let functionString = Constants.InterfaceConstants.BUTTON_THREE
+        buttonThree.titleLabel?.textColor = Theme.tint
+        buttonThree.tintColor = Theme.tint
+        let functionString = Constants.ButtonConstants.BUTTON_THREE
         logsEntrys.append(Constants.InterfaceConstants.LOG + intToString(int: newLogsEntryNumber()) + Constants.InterfaceConstants.DASH + functionString)
         logsTableView.reloadData()
         guard let lastIndexPath = logsTableView.indexPathsForVisibleRows?.last else { return }
@@ -72,7 +82,15 @@ class InterfaceViewController: UIViewController {
     }
     
     @IBAction func buttonFour(_ sender: Any) {
-        let functionString = Constants.InterfaceConstants.BUTTON_FOUR
+        
+        
+        if buttonFour.isSelected {
+            buttonFour.backgroundColor = Theme.tint
+        } else {
+            buttonFour.backgroundColor = Theme.current.buttonBackground
+            buttonFour.setTitleColor(Theme.tint, for: .normal)
+        }
+        let functionString = Constants.ButtonConstants.BUTTON_FOUR
         logsEntrys.append(Constants.InterfaceConstants.LOG + intToString(int: newLogsEntryNumber()) + Constants.InterfaceConstants.DASH + functionString)
         logsTableView.reloadData()
         guard let lastIndexPath = logsTableView.indexPathsForVisibleRows?.last else { return }
@@ -97,35 +115,36 @@ class InterfaceViewController: UIViewController {
     
     func setUpView() {
         logsTableView.backgroundColor = Theme.current.background
-        logsTableView.separatorInset = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
+        logsTableView.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         
         view.backgroundColor = Theme.current.background
         
         
         logsTableView.layer.cornerRadius = 10
         
+        spinDirectionSwitch.tintColor = Theme.tint
         
-        logsBorderView.layer.backgroundColor = Theme.current.tint.cgColor
+        logsBorderView.layer.backgroundColor = Theme.tint.cgColor
         logsBorderView.layer.cornerRadius = 10
         
         
         buttonStackBorder.backgroundColor = Theme.current.background
         buttonStackBorder.layer.cornerRadius = buttonStackBorder.bounds.height / 2
         
-        buttonOne.layer.borderColor = Theme.current.tint.cgColor
+        buttonOne.layer.borderColor = Theme.tint.cgColor
         buttonOne.layer.cornerRadius = buttonOne.bounds.height / 2
         buttonOne.layer.borderWidth = 5
         
         buttonTwo.layer.borderColor =
-            Theme.current.tint.cgColor
+            Theme.tint.cgColor
         buttonTwo.layer.cornerRadius = buttonTwo.bounds.height / 2
         buttonTwo.layer.borderWidth = 5
         
-        buttonThree.layer.borderColor = Theme.current.tint.cgColor
+        buttonThree.layer.borderColor = Theme.tint.cgColor
         buttonThree.layer.cornerRadius = buttonThree.bounds.height / 2
         buttonThree.layer.borderWidth = 5
         
-        buttonFour.layer.borderColor = Theme.current.tint.cgColor
+        buttonFour.layer.borderColor = Theme.tint.cgColor
         buttonFour.layer.cornerRadius = buttonFour.bounds.height / 2
         buttonFour.layer.borderWidth = 5
         
@@ -137,8 +156,37 @@ class InterfaceViewController: UIViewController {
         self.logsTableView.showsVerticalScrollIndicator = true
     }
     
-    func themeChanged() {
+    func applyTheme() {
         
+        tabBarController?.tabBar.tintColor = Theme.tint
+        view.backgroundColor = Theme.current.background
+        
+        logsTableView.backgroundColor = Theme.current.logsBackground
+        
+        logsBorderView.backgroundColor = Theme.tint
+        
+        switchBorderView.backgroundColor = Theme.current.buttonContainer
+        
+        spinDirectionSwitch.tintColor = Theme.tint
+        spinDirectionSwitch.onTintColor = Theme.tint
+        
+        buttonStackBorder.backgroundColor = Theme.current.buttonContainer
+        
+        buttonOne.layer.borderColor = Theme.tint.cgColor
+        buttonOne.backgroundColor = Theme.current.buttonBackground
+        buttonOne.setTitleColor(Theme.tint, for: .normal)
+        
+        buttonTwo.layer.borderColor = Theme.tint.cgColor
+        buttonTwo.backgroundColor = Theme.current.buttonBackground
+        buttonTwo.setTitleColor(Theme.tint, for: .normal)
+    
+        buttonThree.layer.borderColor = Theme.tint.cgColor
+        buttonThree.backgroundColor = Theme.current.buttonBackground
+        buttonThree.setTitleColor(Theme.tint, for: .normal)
+        
+        buttonFour.layer.borderColor = Theme.tint.cgColor
+        buttonFour.backgroundColor = Theme.current.buttonBackground
+        buttonFour.setTitleColor(Theme.tint, for: .normal)
     }
     
     @IBAction func spinDirectionChanged(_ sender: Any) {
@@ -179,6 +227,7 @@ extension InterfaceViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: Constants.CellConstants.LOGS_CELL, for: indexPath)
         cell.textLabel?.text = logsEntrys[indexPath.row]
+        cell.detailTextLabel?.text
         return cell
     }
     

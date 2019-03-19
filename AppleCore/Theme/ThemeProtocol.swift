@@ -14,8 +14,20 @@ protocol ThemeProtocol {
     var lightAccent: UIColor { get }
     var background: UIColor { get }
     var logsBackground: UIColor { get }
+    var buttonContainer: UIColor { get }
+    var buttonBackground: UIColor { get }
+    
+    var settingsSection: UIColor { get }
     var logsText: UIColor { get }
     var text: UIColor { get }
-    var tint: UIColor { get }
+    
+    var selectedTint: Int { get set }
+    
+    func getTint(selectedTint: Int) -> UIColor
+    
+    var tint1: UIColor { get }
+    var tint2: UIColor { get }
+    var tint3: UIColor { get }
+    var tint4: UIColor { get }
     var settingsCell: UIColor { get }
 }
